@@ -1,0 +1,21 @@
+{
+  "name": "hypersnow",
+  "version": "0.0.1",
+  "description": "Make your terminal snow",
+  "main": "dist/bundle.js",
+  "author": "Tim Neutkens",
+  "license": "MIT",
+  "repository": "timneutkens/hypersnow",
+  "dependencies": {
+    "react-snowfetti": "^1.2.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.16.0",
+    "json-loader": "^0.5.4",
+    "webpack": "2.2.0-rc.1",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "files": ["dist/bundle.js"]
+}
